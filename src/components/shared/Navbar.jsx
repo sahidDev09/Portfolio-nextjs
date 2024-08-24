@@ -80,7 +80,7 @@ const Navbar = () => {
             className="hoverAnim bg-zinc-700 hover:bg-zinc-800 list-none p-2 rounded-full px-4"
             aria-label="GitHub">
             <div className="flex gap-3 items-center">
-              <span>
+              <span className=" text-white">
                 <FaGithub />
               </span>
               <h1 className="hidden md:inline text-zinc-300 text-lg">GitHub</h1>
