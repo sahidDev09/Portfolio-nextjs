@@ -4,20 +4,18 @@
 
 @font-face {
   font-family: "Founders_bl";
-  src: url("/public/Fonts/FoundersGroteskXCond-Bold.ttf");
+  src: url("/Fonts/FoundersGroteskXCond-Bold.ttf") format("truetype");
 }
 @font-face {
   font-family: "Founders_lg";
-  src: url("/public/Fonts/FoundersGroteskXCond-Lt.ttf");
+  src: url("/Fonts/FoundersGroteskXCond-Lt.ttf") format("truetype");
 }
 @font-face {
   font-family: "Neue";
-  src: url("/public/Fonts/NeueMontreal-Regular.ttf");
+  src: url("/Fonts/NeueMontreal-Regular.ttf") format("truetype");
 }
 
-.hoverAnim:hover {
-  .arrowGit {
-    rotate: -45deg;
-    transition: ease-in-out 0.2s;
-  }
+.hoverAnim:hover .arrowGit {
+  transform: rotate(-45deg);
+  transition: transform 0.2s ease-in-out;
 }
