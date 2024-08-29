@@ -9,6 +9,7 @@ import LocomotiveScroll from "locomotive-scroll";
 import Image from "next/image";
 import About from "@/components/About";
 import SkillsEdu from "@/components/SkillsEdu";
+import FeaturesProjects from "@/components/FeaturesProjects";
 
 export default function Home() {
   const scrollRef = useRef(null);
@@ -37,6 +38,7 @@ export default function Home() {
       <Marquee />
       <About />
       <SkillsEdu />
+      <FeaturesProjects />
       <Footer />
     </main>
   );
