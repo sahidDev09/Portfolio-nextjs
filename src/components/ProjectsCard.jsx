@@ -21,7 +21,7 @@ const ProjectsCard = ({ project }) => {
           <p className="py-2 text-zinc-400 dark:text-gray-400">
             {project.description.slice(0, 100)}...
           </p>
-          <Link href={`/projects/${project.id}`}>
+          <Link href={`/services/${project._id}`}>
             <button className="btn w-full bg-highlight-btn hover:bg-zinc-700 border-none text-white">
               View full details
             </button>
